@@ -15,7 +15,7 @@ const AboutMe = () => {
                         <p>Hey everyone, I'm Adrian. I am a full-stack software engineer graduate having recently
                         completed an intensive four-month bootcamp at Xccelerate. 
                         <br/><br/>
-                        Prior to my training with Xccelerate, I specialised in content developement, digital marketing, public relations, research
+                        Prior to my training with Xccelerate, I specialised in content developement, digital marketing, public relations
                         and social media management. I've recently moved back to Hong Kong after spending the past 4 years working in
                         London to fulfill a long-time goal of mine of becoming a developer. I got passionate about coding fairly quickly, and 
                         what continues to excites me most about coding is the ability to craft something novel each day.
