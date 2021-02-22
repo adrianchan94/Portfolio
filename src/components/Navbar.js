@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../logo.png'
+import logo from '../Images/logo.png'
 //React Font Awesome Imports
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from "@fortawesome/free-solid-svg-icons"
@@ -10,7 +10,7 @@ const Navbar = () => {
 
       <div className="container">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#"><img src={logo} width="120" height="60"/></a>
+          <a className="navbar-brand" href="/#"><img src={logo} alt="" width="120" height="60"/></a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <FontAwesomeIcon icon={faBars} style={{ color: "#fff"}}/> 
           </button>
