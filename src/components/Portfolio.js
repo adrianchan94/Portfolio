@@ -17,8 +17,10 @@ const Portfolio = () => {
         const content = (
         <>
         <img className="portfolio-image-popupbox" src={OnlyBrands} alt="OnlyBrands" /> 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+        <p>OnlyBrands is an advertising platform which allows brands to promote discounts and offers for services and products, and subsequently build a loyalty network through incentivised referrals and recommndations.
+        <br /><br /> 
+         Tech Stack: React.js, Redux, Express.js, Node.js, PostgreSQL, Knex.js, Passport.js, JWT, nodemailer API, material UI
+        </p>
         <b>Github (Front-end):</b> <a className="hyper-link" onClick={() => window.open("https://github.com/hilman72/only_brands_frontend")}>
         https://github.com/hilman72/only_brands_frontend
         </a>
@@ -45,8 +47,9 @@ const Portfolio = () => {
             const content = (
             <>
             <img className="portfolio-image-popupbox" src={MunchM8} alt="MunchM8" /> 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+            <p>MunchM8 is a social-dining platform that faciliates new relationships and connections through a shared dining experience.
+            <br /><br />
+            Tech Stack: Handlebars, Express.js, Node.js, PostgreSQL, Knex.js, Passport.js, Google Map API, nodemailer API, Socket.IO</p>
             <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/adrianchan94/MunchM8")}>
             https://github.com/adrianchan94/MunchM8
             </a>
@@ -72,8 +75,10 @@ const Portfolio = () => {
             const content = (
             <>
             <img className="portfolio-image-popupbox" src={CanvasBoys} alt="Canvas Boys" /> 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+            <p>Canvas Boys is a Microsoft Paint clone with a few additional quirky features.
+            <br /><br /> 
+            Tech Stack: Bootstrap, Canvas API
+            </p>
             <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/adrianchan94/Canvas_Boys")}>
             https://github.com/adrianchan94/Canvas_Boys
             </a>
