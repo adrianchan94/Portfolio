@@ -12,8 +12,8 @@ const AboutMe = () => {
                   <img className="profile-img" src={author} alt="author..." />
                   </div>
                   <div className="about-me-icons d-flex justify-content-center">
-                  <a href="https://github.com/adrianchan94"><FontAwesomeIcon className="icon mr-3" icon={faGithub} size="4x"/></a>
-                  <a href="https://www.linkedin.com/in/adrian-chan-1a290060/"><FontAwesomeIcon className="icon ml-3" icon={faLinkedin} size="4x"/></a>
+                  <a href="https://github.com/adrianchan94"><FontAwesomeIcon className="icon mr-2" icon={faGithub} size="3x"/></a>
+                  <a href="https://www.linkedin.com/in/adrian-chan-1a290060/"><FontAwesomeIcon className="icon ml-2" icon={faLinkedin} size="3x"/></a>
                   </div>
                 </div>
                 <div className="col-lg-6 col-xm-12">
