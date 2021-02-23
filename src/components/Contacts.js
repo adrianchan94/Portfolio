@@ -37,7 +37,7 @@ const Contacts = () => {
 
 
     return (
-        <div className="contacts">
+        <div id="contacts" className="contacts">
             <div className="text-center">
                 <h1>Contact Me</h1>
                 <p>Please fill out the form below and I'll get back to you as soon as possible.</p>

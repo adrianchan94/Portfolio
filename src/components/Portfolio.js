@@ -96,7 +96,7 @@ const Portfolio = () => {
     
 
     return (
-        <div className="portfolio-wrapper">
+        <div id="projects" className="portfolio-wrapper">
             <div className="container">
                 <h1 className="text-uppercase text-center py-5">Xccelerate Projects</h1>
                 <div className="image-box-wrapper row justify-content-center">

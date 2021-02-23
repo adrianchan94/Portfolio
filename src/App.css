@@ -50,7 +50,7 @@ nav ul li {
   max-width: 17.25rem;
 }
 
-.navbar-nav li a.active, .navbar li a:active:focus {
+.navbar-nav li a.active, .navbar li a:focus {
   border-top: 0.1875rem solid var(--primary-orange);
 }
 
@@ -65,7 +65,7 @@ nav ul li {
   background: url(./Images/hongkong.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -159,9 +159,18 @@ nav ul li {
   text-transform: uppercase;
 }
 
+.about-me-icons .icon {
+  color: var(--primary-orange);
+  cursor: pointer;
+}
+
 @media(max-width: 468px) {
   .profile-img {
     width: 10rem; 
+  }
+
+  .about-me-icons {
+    margin-bottom: 1rem;
   }
 }
 
@@ -308,6 +317,11 @@ nav ul li {
     direction: ltr; 
     width: 100%;
   }
+
+  .photo-wrap.mb-5 {
+    margin-bottom: 1rem !important;
+  }
+
 }
 
 /***** Portfolio ******/ 
@@ -517,5 +531,34 @@ textarea.form-control {
 
   .contacts p {
     padding: 0 0.4rem;
+  }
+}
+
+/***** Footer Component ******/ 
+
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-dark-grey);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor: pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+@media(max-width: 768px) {
+  .col {
+    padding-bottom: 1rem;
   }
 }
