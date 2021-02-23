@@ -1,4 +1,5 @@
 {
+  "homepage": "https://adrianchan94.github.io/Portfolio/",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +13,7 @@
     "@testing-library/user-event": "^12.1.10",
     "bootstrap": "^4.6.0",
     "emailjs-com": "^2.6.4",
+    "gh-pages": "^3.1.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-hook-form": "^6.15.4",
@@ -27,7 +29,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -48,6 +52,7 @@
     ]
   },
   "devDependencies": {
-    "eslint-plugin-jest": "^24.1.5"
+    "eslint-plugin-jest": "^24.1.5",
+    "webpack-dev-server": "^3.1.9"
   }
 }
