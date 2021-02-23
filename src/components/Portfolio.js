@@ -98,7 +98,7 @@ const Portfolio = () => {
     return (
         <div className="portfolio-wrapper">
             <div className="container">
-                <h1 className="text-uppercase text-center py-5">Portfolio</h1>
+                <h1 className="text-uppercase text-center py-5">Xccelerate Projects</h1>
                 <div className="image-box-wrapper row justify-content-center">
                     <div className="portfolio-image-box" onClick={openPopupboxOnlyBrands}>
                         <img className="portfolio-image" src={OnlyBrands} alt="OnlyBrands" />
