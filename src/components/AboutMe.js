@@ -23,8 +23,7 @@ const AboutMe = () => {
                         what continues to excites me most about coding is the ability to craft something novel each day.
                         <br/><br/>
                         Before my training with Xccelerate, I specialised in content development, digital marketing, public relations
-                        and social media management. I've recently moved back to Hong Kong after spending the past 9 years working and studying in
-                        in the UK.
+                        and social media management. I've recently moved back to Hong Kong after spending the past 9 years working and studying in the UK.
                         <br/><br/>
                         Having achieved a Bachelors degree in Journalism and Masters in Marketing, Communications
                         and Advertising, I have accumulated over six years of experience in developing content, both online and offline,
